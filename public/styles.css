@@ -9,4 +9,7 @@
 
 body {
     background: black;
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
 }
