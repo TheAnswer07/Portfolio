@@ -9,11 +9,11 @@
 
 .bg {
     position: absolute;
-    top: 15rem;
+    top: 23rem;
     z-index: -1;
     right: 0;
     object-fit: cover;
-    height: 47vh;
+    height: 35vh;
 }
 
 .introContent {
@@ -30,6 +30,7 @@ justify-content: center;
 .hello {
     font-size: 1.75rem;
     font-weight: 100;
+    padding: 1rem 0;
 }
 
 .introName {
@@ -37,8 +38,12 @@ justify-content: center;
 }
 
 .introPara {
-    font-size: medium;
+    font-size: 17px;
     font-weight: 100;
+    letter-spacing: 2px;
+    word-spacing: 0.5px;
+    line-height: 23px; 
+    padding: 1rem 0;
 }
 
 .btn {
