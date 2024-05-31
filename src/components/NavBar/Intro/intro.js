@@ -11,17 +11,18 @@ const Intro = () => {
 <div className="introContent">
 <span className="hello">Hello,</span>
 <span className="introText">I'm <span className="introName">Moussa</span> <br/>Website Designer</span>
-<p className="introPara">Well rounded and results oriented International Trade, Web Development 
-<br/> & UI/UX Design Professional, with a track record of success delivering projects 
-<br/>and improving operational performances. 
+<p className="introPara">I'm a well rounded and results oriented International Trade, 
+<br/>Web Development & UI/UX Design Professional, with a track record 
+<br/>of success delivering projects and improving operational performances. 
 <br/>
-<br/>Quickly adapts to any type of business environment, 
-<br/>with a superior sense of organization, a great ability to manage
-<br/>cross-functional teams. Speaks and writes fluently in French, English and Spanish.
+<br/>I quickly adapt to any type of business environment, with a superior sense of
+<br/>organization and a great ability to manage cross-functional teams. 
+<br/>
+<br/>I speak and write fluently in French, English and Spanish.
 <br/> 
-<br/>Constantly looking for excellence in the execution of operations 
+<br/>I'm constantly looking for excellence in the execution of operations 
 <br/>and the achievement of pre-established objectives.</p>
-<Link> <button className="btn"><img src={btnImg} alt="hireMeImg"/>Hire Me</button></Link>
+<Link> <button className="btn"><img src={btnImg} alt="hireMeImg" className="btnImg"/>Hire Me</button></Link>
 </div>
 
 <img src={bg} alt="myPic" className="bg" />
