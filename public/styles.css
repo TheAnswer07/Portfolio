@@ -8,7 +8,7 @@
 }
 
 body {
-    background: black;
+    background: rgb(22, 28, 64);
     color: white;
     overflow: hidden;
     overflow-y: scroll;
