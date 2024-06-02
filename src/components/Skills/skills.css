@@ -18,7 +18,39 @@
 }
 
 .skillDescription {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     max-width: 50rem;
     padding: 0 2rem;
+}
+
+.skillBars{
+    margin: 1.7rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.skillBar{
+    display: flex;
+    background-color: rgb(26, 26, 97);
+    margin: 1rem;
+    padding: 2rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.skillBarImg{
+    object-fit: cover;
+    height: 4.5rem;
+    width: 3rem;
+    margin: -0.7rem 1.5rem;
+} 
+
+.skillBarText p{
+    font-size: 1.2rem;
+    margin-top: 1.3rem;
+    line-height: 1.5;
+}
+
+.skillBarText h2{
+    font-size: 2rem;
 }
