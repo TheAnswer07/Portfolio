@@ -1,4 +1,6 @@
 .navbar {
+    background: rgb(22, 28, 64);
+    font-size: 1.4rem;
     height: 5rem;
     width: 100vw;
     max-width: 75rem;
@@ -9,7 +11,7 @@
     justify-content: space-between;
     position: sticky;
     top: 0;
-    z-index: 3;
+    z-index: 5;
 }
 
 .logo {
@@ -37,6 +39,7 @@
 
 .desktopMenuBtn {
     border: none;
+    font-size: 15px;
     background: white;
     color: black;
     display: flex;

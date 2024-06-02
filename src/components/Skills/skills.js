@@ -8,9 +8,9 @@ const skills = () => {
     return (
         <section id="skills">
             <span className="skillTitle">About Me</span>
-            <span className="skillDescription">I'm a well rounded and results oriented <br />International Trade,
-                Web Development & <br />UI/UX Design Professional, <br />with a track record
-                of success <br />delivering projects and improving <br />operational performances.</span>
+            <span className="skillDescription">I'm a well rounded and results oriented International Trade,
+                Web Development & UI/UX Design Professional, with a track record
+                of success delivering projects and improving operational performances.</span>
 
             <div className="skillBars">
                 <div className="skillBar">
