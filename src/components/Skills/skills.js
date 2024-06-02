@@ -2,7 +2,6 @@ import React from "react";
 import "./skills.css";
 import UIDesign from "../../assets/uiuxDesign.png";
 import WebDesign from "../../assets/webDesign.png";
-import AppDesign from "../../assets/appDesigns.png";
 
 
 const skills = () => {
@@ -14,28 +13,18 @@ const skills = () => {
                 of success <br />delivering projects and improving <br />operational performances.</span>
 
             <div className="skillBars">
-
+                <div className="skillBar">
+                    <img src={WebDesign} className="skillBarImg" alt="Web Design" />
+                    <div className="skillBarText">
+                        <h2>Web Design</h2>
+                        <p>You'll find below the links to my Web Development projects (click on each image to view the specific application). These projects were created with three (3) different teams from the University of California Berkeley Coding Boot Camp (Full Stack Flex Program - April/October 2022).</p>
+                    </div>
+                </div>
                 <div className="skillBar">
                     <img src={UIDesign} className="skillBarImg" alt="UI UX Design" />
                     <div className="skillBarText">
                         <h2>UI/UX Design</h2>
-                        <p></p>
-                    </div>
-
-                    <div className="skillBar">
-                        <img src={WebDesign} className="skillBarImg" alt="Web Design" />
-                        <div className="skillBarText">
-                            <h2>Web Design</h2>
-                            <p></p>
-                        </div>
-                    </div>
-
-                    <div className="skillBar">
-                        <img src={AppDesign} className="skillBarImg" alt="App Design" />
-                        <div className="skillBarText">
-                            <h2>App Design</h2>
-                            <p></p>
-                        </div>
+                        <p>You'll find below the links to my UI/UX projects based on case studies (click on each image to view the specific application). For these Desktop & Mobile Applications, I created the following: User Flows, Wireframes, Mood boards, Iconography, Typography, Prototyping, and Style guides.</p>
                     </div>
 
                 </div>
