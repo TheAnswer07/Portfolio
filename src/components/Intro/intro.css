@@ -3,7 +3,7 @@
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
 }
 
@@ -67,165 +67,70 @@ justify-content: center;
     margin: 0 0.25rem;
 }
 
-@media screen and (max-width:1030px) {
-    .bg {
-        right: -10vw;
-    }
-    .introContent {
-        font-size: 4vw;
-    }
-    .hello {
-        font-size: 3.5vw;
-    }
-    .introPara {
-        font-size: 2.2vw;
-        word-spacing: 0.1px;
-        line-height: 25px; 
-        padding: 1.5rem 0;
-    }
-}
 
-
-@media screen and (max-width:945px) {
+@media screen and (max-width:1700px) {
     .bg {
-        right: -10vw;
+        right: 5vw;
+    }
+    .navbar {
+        width: 85vw;
     }
     .introContent {
         font-size: 3.5vw;
+        margin-left: 0 auto;
     }
     .hello {
         font-size: 3vw;
     }
     .introPara {
-        font-size: 1.7vw;
+        font-size: 1.9vw;
         word-spacing: 0.1px;
-        line-height: 25px; 
+        line-height: 38px; 
         padding: 1.5rem 0;
     }
 }
 
-@media screen and (max-width:875px) {
+@media screen and (max-width:1500px) {
     .bg {
-        right: -15vw;
+        right: 5vw;
+    }
+    .navbar {
+        width: 85vw;
     }
     .introContent {
+        font-size: 3.5vw;
+        /* margin-left: 1.5rem; */
+    }
+    .hello {
         font-size: 3vw;
     }
-    .hello {
-        font-size: 2.7vw;
-    }
-      .introPara {
-        font-size: 1.6vw;
-        word-spacing: 0.1px;
-        line-height: 25px; 
-        padding: 1.5rem 0;
-    }
-}
-
-@media screen and (max-width:750px) {
-    .bg {
-        right: -25vw;
-    }
-    .introContent {
-        font-size: 4vw;
-    }
-    .hello {
-        font-size: 3.5vw;
-    }
     .introPara {
-        font-size: 1.7vw;
+        font-size: 1.9vw;
         word-spacing: 0.1px;
-        line-height: 25px; 
+        line-height: 38px; 
         padding: 1.5rem 0;
     }
 }
 
-@media screen and (max-width:685px) {
+
+@media screen and (max-width:960px) {
     .bg {
-        right: -40vw;
+        right: 5vw;
+    }
+    .navbar {
+        width: 90vw;
     }
     .introContent {
-        font-size: 4.5vw;
+        font-size: 3.5vw;
+        margin-left: 1.5rem;
     }
     .hello {
-        font-size: 3.5vw;
+        font-size: 3vw;
     }
     .introPara {
         font-size: 1.9vw;
         word-spacing: 0.1px;
         line-height: 25px; 
-        padding: 1.5rem 0;
-    }
-}
-
-@media screen and (max-width:610px) {
-    .bg {
-        right: -50vw;
-    }
-    .introContent {
-        font-size: 4.5vw;
-    }
-    .hello {
-        font-size: 3.5vw;
-    }
-    .introPara {
-        font-size: 1.9vw;
-        word-spacing: 0.1px;
-        line-height: 25px; 
-        padding: 1.5rem 0;
-    }
-}
-
-@media screen and (max-width:550px) {
-    .bg {
-        right: -55vw;
-    }
-    .introContent {
-        font-size: 4vw;
-    }
-    .hello {
-        font-size: 3vw;
-    }
-    .introPara {
-        font-size: 1.1vw;
-        word-spacing: 0.1px;
-        line-height: 15px; 
-        padding: 1.5rem 0;
-    }
-}
-
-@media screen and (max-width:500px) {
-    .bg {
-        right: -65vw;
-    }
-    .introContent {
-        font-size: 3.3vw;
-    }
-    .hello {
-        font-size: 2.7vw;
-    }
-    .introPara {
-        font-size: .9vw;
-        word-spacing: 0.1px;
-        line-height: 15px; 
-        padding: 1.5rem 0;
-    }
-}
-
-@media screen and (max-width:450px) {
-    .bg {
-        right: -35vw;
-    }
-    .introContent {
-        font-size: 3vw;
-    }
-    .hello {
-        font-size: 2.5vw;
-    }
-    .introPara {
-        font-size: .7vw;
-        word-spacing: 0.1px;
-        line-height: 15px; 
         padding: 1.5rem 0;
     }
 }

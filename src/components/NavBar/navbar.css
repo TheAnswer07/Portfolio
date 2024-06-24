@@ -2,7 +2,7 @@
     background: rgb(22, 28, 64);
     font-size: 1.4rem;
     height: 5rem;
-    width: 100vw;
+    width: 150vw;
     max-width: 75rem;
     margin: 0 auto;
     padding: 1rem 2rem;
@@ -20,7 +20,7 @@
 }
 
 .desktopMenuListItem {
-    margin: 1rem;
+    margin: 2rem;
     cursor: pointer;
 }
 
